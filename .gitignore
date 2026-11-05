@@ -1,0 +1,22 @@
+# Roblox place files and Studio lock/backup files (the place is kept in Studio, not in git)
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+*_AutoRecovery_*
+
+# Rojo / tooling output
+sourcemap.json
+/build/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Never commit secrets
+.env
+*.env
+.roblosecurity
+*cookie*

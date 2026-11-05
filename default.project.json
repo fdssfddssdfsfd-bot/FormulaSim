@@ -1,0 +1,46 @@
+{
+  "name": "FormulaSim",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "FormulaSim": {
+        "$path": "src/ReplicatedStorage/FormulaSim"
+      }
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$ignoreUnknownInstances": true,
+      "FormulaSim": {
+        "$path": "src/ServerStorage/FormulaSim"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "FormulaSimServer": {
+        "$path": "src/ServerScriptService/FormulaSimServer.server.luau"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$ignoreUnknownInstances": true,
+        "FormulaSimClient": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/FormulaSimClient.client.luau"
+        }
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$ignoreUnknownInstances": true,
+      "$properties": {
+        "Gravity": 35.035714285714285,
+        "StreamingEnabled": false
+      }
+    }
+  }
+}
